@@ -1,0 +1,46 @@
+@import "~bootstrap/scss/bootstrap";
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+}
+.slider {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-height: 400px;
+}
+
+.header-logo {
+  width: 10px;
+  height: 80px;
+}
+.logo {
+  width: 150px;
+}
+
+.header-body {
+  padding: 20px 0;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 9999;
+}
+.menu-list {
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-transform: uppercase;
+  color: var(--white);
+  text-shadow: 2px 2px #000000;
+}
+.header-logo {
+  flex: 1;
+}
+.header-item {
+  flex: 1;
+}
